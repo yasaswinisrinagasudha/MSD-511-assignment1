@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<h1><center>REGISTRATION FORM</center></h1>
+<h2><center>please fill out this form with required information</center></h1>
+</head>
+<body>
+<form>
+<center><label for="FirstName">Enter your FirstName:</label></center>
+<center><input type="text" id="FirstName" name="FirstName" required</center><br><br>
+<center><label for="LastName">Enter your LastName:</label></center>
+<center><input type="text" id="LastName" name="LastName" required</center><br><br>
+<center><label for="Email">Enter you Email:</label></center>
+<center><input type="text" id="Email" name="Email" required</center><br><br>
+<center><label for="New Password">Create your New Password:</label></center>
+<center><input type=text" id="New Password" name="New Password" required</center><br><br> 
+</form><br><br>
+<hr>
+<p><center>Account type(required)</center></p> 
+<input type="radio" id="personal" name="account-type" value="personal">
+<label for="personal">personal</label><br><br>
+<input type="radio" id="Business" name="account-type" value="business">
+<label for="Business">business</label><br><br>
+<hr>
+<label for="profile-picture">Upload your profile picture:</label><br>
+        <input type="file" id="profile-picture" name="profile-picture"><br><br>
+    
+        <label for="age">Input your age(years):</label><br>
+        <input type="number" id="age" name="age"><br><br>
+
+        <label for="referral">How did you hear about us?</label><br>
+        <select id="referral" name="referral">
+            <option value="" disabled selected>(select one)</option>
+            <option value="social-media">Social Media</option>
+            <option value="friends">Friends</option>
+            <option value="advertisement">Advertisement</option>
+            <option value="other">Other</option>
+        </select><br><br>
+
+        <label for="bio">Provide a bio:</label><br>
+        <textarea id="bio" name="bio" rows="4" cols="50" placeholder="Write something..."></textarea><br><br>
+        
+        <input type="checkbox" id="terms" name="terms">
+        <label for="terms">I accept the <a href="#">Terms and Conditions</a></label><br><br>
+
+        <button type="submit">Submit</button>
+ </form>  
+
+    <footer>
+        <p>About Us| Privacy Policy| Contact Us| FAQ|Terms & Conditions<br>
+                Email :226m1a0511@bvcr.edu.in</p>
+    </footer>
+
+
+</body>
+</html>
